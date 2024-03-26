@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: wrap;
+  gap: 10px;
+}
+.container div {
+  box-shadow: 3px 2px 1px 4px;
+}
+.container div img {
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+}
+
+.container div p {
+  font-weight: bold;
+  font-size: 25px;
+}
